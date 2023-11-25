@@ -1,0 +1,60 @@
+html{
+    background-color: azure;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: min-content;
+    column-gap: 9px;
+    row-gap: 3px;
+    border: 3px solid black;
+    padding: 2px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(136, 122, 122);
+    
+    
+
+}
+.contenedor *{
+    border-radius: 5%;
+    text-align: center;
+    border: solid black;
+
+}
+
+#resultadoFinal{
+    grid-column: span 2;
+
+}
+
+button{
+    background-color: bisque;
+    width: 60px;
+    height: 60px;
+}
+
+.pequeños{
+    width: 60px;
+    height: 60px;
+}
+
+.grande{
+    width: 127px;
+    height: 60px;
+}
+
+h1{
+    font-size: 60px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
